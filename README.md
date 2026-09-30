@@ -6,6 +6,8 @@ NTPTimeSync 是一个在 Windows 电脑上校准系统时间的小工具，主�
 - Windows 7 / 8 / 10 / 11 通用，32 位、64 位系统通用
 - 除系统自带组件外，不需要任何运行库或外部依赖
 
+![预览图](https://raw.githubusercontent.com/bruce609685-collab/NTPTimeSync/refs/heads/main/%E9%A2%84%E8%A7%88%E5%9B%BE.jpg)
+
 ## 使用
 
 1. 双击 `NTPTimeSync.exe` 即可运行（免安装）。程序会弹出 UAC 提示，因为修改系统时间需要管理员权限。
