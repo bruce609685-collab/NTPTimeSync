@@ -84,6 +84,16 @@ NTPTimeSync-2.0/
 
 需要 MinGW-w64 32 位工具链（`C:\msys64\mingw32`）和 Python（仅用于生成图标）。
 
+```
+build\build.bat              ->  dist\NTPTimeSync.exe（公网版，要求管理员权限）
+build\build.bat intranet     ->  dist\NTPTimeSync_Intranet.exe（内网版，内置 6 台内网服务器）
+build\build.bat dev          ->  build\dev\NTPTimeSync_dev.exe（不要求管理员，仅供测试）
+build\build.bat intranet dev ->  build\dev\NTPTimeSync_Intranet_dev.exe
+build\test.bat               ->  编译并运行自检（本机回环上的假 NTP 服务器 + 虚拟时钟，不动真实系统时间）
+```
+
+`build` 脚本必须保持纯 ASCII + CRLF 换行。
+
 ## 许可证
 
 本项目采用 **Apache-2.0** 许可证，详见 [LICENSE](LICENSE)。
