@@ -7,7 +7,10 @@ NTPTimeSync 是一个在 Windows 电脑上校准系统时间的小工具，主�
 - 除系统自带组件外，不需要任何运行库或外部依赖
 - 默认语言为英语，可切换简体中文 / 繁體中文 / Français / Italiano / Русский / 日本語
 
-![预览图](https://raw.githubusercontent.com/bruce609685-collab/NTPTimeSync/refs/heads/main/%E9%A2%84%E8%A7%88%E5%9B%BE.jpg)
+![预览图](https://raw.githubusercontent.com/bruce609685-collab/NTPTimeSync/refs/heads/main/%E9%A2%84%E8%A7%88%E5%9B%BE.png)
+
+![预览图](https://raw.githubusercontent.com/bruce609685-collab/NTPTimeSync/refs/heads/main/PreviewImage.png)
+
 
 ## 使用
 
